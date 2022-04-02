@@ -1,0 +1,105 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+}
+
+.outside, footer{
+    background-color: hsl(225, 100%, 94%);
+}
+.outside{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    flex: 0;
+    padding: 1em;
+}
+.card, .headingImage, .planSection, .payment{
+    border-radius: 10px;
+}
+.headingImage{
+    border-bottom-right-radius:0;
+    border-bottom-left-radius: 0;
+}
+
+h1{
+    font-size: 22px;
+}
+h1, .planTitle{
+    font-weight: 900;
+}
+
+.text, .planPrice, .cancel{
+    color: hsl(224, 23%, 55%);
+}
+
+.card{
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    max-width: 20em;
+    box-shadow: 0 3px 20px hsl(224, 23%, 55%);
+
+}
+.card, .cancel{
+    background-color: white;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.planSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 1em;
+    text-align: left;
+    
+}
+.musicIcon{
+    margin: 0 1em 0 0;
+}
+.planDescription{
+    margin: 0 2em 0 0;
+    width: 100%;
+    white-space: nowrap;
+}
+.planTitle{
+    margin: 0 0 .2em 0;
+}
+.planSection a{
+    color: hsl(245, 75%, 52%);
+}
+
+
+.planSection, button, .cardContent{
+    margin: 1em 2em;
+
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    padding: 1em 5.5em;
+    white-space: nowrap;
+    color: white;
+    border: 0;
+    font-weight: 700;
+    box-shadow: 0 10px 20px hsl(224, 23%, 55%);
+}
+.cancel{
+    border: 0;
+    font-weight: 900;
+}
